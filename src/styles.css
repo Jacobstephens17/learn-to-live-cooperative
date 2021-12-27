@@ -16,7 +16,9 @@
 }
 
 .name{
-    font-family: 'Pushster', cursive;
+    /* font-family: 'Pushster', cursive; */
+    font-family: 'Oooh Baby', cursive;
+    margin:3rem;
     font-size:74px;
 }
 

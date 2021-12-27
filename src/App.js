@@ -5,7 +5,9 @@ import './styles.css'
 import Carousel from 'react-elastic-carousel'
 import Item from './components/Item'
 import z1 from './content/zoie1.JPG'
-import z2 from './content/z2.jpeg'
+import food from './content/food.JPG'
+import plant from './content/plant.JPG'
+import plant2 from './content/plant2.JPG'
 import styled from 'styled-components'
 
 
@@ -34,12 +36,9 @@ const App = () => {
           ))} */}
           <img className='images' src={companyLogo}/>
           <img className='images' src={z1}/>
-          <img className='images' src={z2}/>
-          <img className='images' src={companyLogo}/>
-          <img className='images' src={z1}/>
-          <img className='images' src={z2}/>
-          <img className='images' src={z1}/>
-          <img className='images' src={z2}/>
+          <img className='images' src={food}/>
+          <img className='images' src={plant}/>
+          <img className='images' src={plant2}/>
           {/* <Item><img src={z1}/></Item>
           <Item><img src={companyLogo}/></Item>
           <Item><img src={companyLogo}/></Item>
