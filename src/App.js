@@ -8,6 +8,14 @@ import z1 from './content/zoie1.JPG'
 import food from './content/food.JPG'
 import plant from './content/plant.JPG'
 import plant2 from './content/plant2.JPG'
+import drive from './content/drive.JPG'
+import drive2 from './content/drive2.JPG'
+import food2 from './content/food2.jpg'
+import hospital from './content/hospital.JPEG'
+import mimi from './content/mimi.JPG'
+import directors from './content/boardOfDirectors.JPG'
+
+
 import styled from 'styled-components'
 
 
@@ -28,7 +36,7 @@ const App = () => {
 
       {/* <img className='logo'src={companyLogo} alt='LearnToLiveCo-OperativeLogo'/> */}
 
-      <h1 className="name">Learn to Live Co-Operative</h1>
+      <h1 className="name">Grow With Us</h1>
 
         <Carousel enableSwipe="true" className="carousel" tiltEasing="ease" itemsToShow={1}>
           {/* {items.map((item) => (
@@ -39,6 +47,13 @@ const App = () => {
           <img className='images' src={food}/>
           <img className='images' src={plant}/>
           <img className='images' src={plant2}/>
+          <img className='images' src={drive}/>
+          <img className='images' src={drive2}/>
+          <img className='images' src={hospital}/>
+          <img className='images' src={food2}/>
+          <img className='images' src={mimi}/>
+
+
           {/* <Item><img src={z1}/></Item>
           <Item><img src={companyLogo}/></Item>
           <Item><img src={companyLogo}/></Item>
@@ -48,26 +63,33 @@ const App = () => {
 
 
         <Accordion className='accordion' square='true'>
+
           <AccordionSummary className='accordionSummary'> 
             <Typography className='accordionTitle'>About Us</Typography>
           </AccordionSummary>
+
           <AccordionDetails>
-            <Typography>My team is working to help supply families in hospice with ready to eat meals this holiday season! We’re already partnering with local businesses to redirect food supply waste to hungry mouths</Typography>
+            <Typography>
+               Our ultimate goal is to provide an unwavering resource for the community and aid in the allocation of essential items. We aim to be an active member within our community, participating in local farmers markets, art fairs, and partnering with local businesses. This all-women owned nonprofit aims to spark growth in change within the community, urging us into a new age of self-reliance and resilience
+            </Typography>
           </AccordionDetails>
+
         </Accordion>
 
 
         <Accordion className='accordion' square='true'>
-          <AccordionSummary>
+
+          <AccordionSummary className='accordionSummary'>
             <Typography>Contact</Typography>
           </AccordionSummary>
+
           <AccordionDetails>
 
+            <Typography> 
+              Email Us! @ - learntolivecooperative@gmail.com
+            </Typography>
             <Typography>
-              <Typography>
-                Email Us!
-              </Typography>
-              learntolivecooperative@gmail.com
+              HR - learntolivecooperative.hr@gmail.com
             </Typography>
 
             <Typography>
@@ -76,6 +98,44 @@ const App = () => {
               </InstagramLink>
             </Typography>
 
+          </AccordionDetails>
+
+        </Accordion>
+
+
+
+        <Accordion className='accordion' square='true'>
+          <AccordionSummary className='accordionSummary'>
+            <Typography>
+              Board Of Directors
+            </Typography>
+          </AccordionSummary>
+
+
+          <AccordionDetails>
+            <img src={directors} />
+            <Typography>
+              Zoie Laviolette - Director of General Operations
+              Noelani White - Director of Youth Outreach
+              Dominique Keys - Director of Arts
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
+
+        <Accordion className='accordion' square='true'>
+          <AccordionSummary className='accordionSummary'>
+            <Typography>
+              Board Of Officers
+            </Typography>
+          </AccordionSummary>
+
+
+          <AccordionDetails>
+            <Typography>
+              Zoie Laviolette - President
+              Chelsea Sconce - Secretary 
+              Jaleadeanne Traynor - Treasurer 
+            </Typography>
           </AccordionDetails>
         </Accordion>
 
