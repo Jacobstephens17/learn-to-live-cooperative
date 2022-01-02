@@ -45,7 +45,19 @@
 }
 
 .accordionDetails{
+    display:flex;
+    flex-direction: column;
     margin:3rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+
+.MuiAccordionDetails-root{
+    justify-content: center;
+    align-content: center;
 }
 
 .carousel {
@@ -63,15 +75,17 @@
     height:500px;
     object-fit: scale-down;
     justify-content: center;
+    align-items: center;
     padding:1rem;
 }
 
 
 .names {
-    border:solid 1px #7FC880;
+    border:solid 3px #7FC880;
     border-radius: 8px;
     margin:4rem 0rem 4rem 0rem;
     color: #7FC880;
+    width:100%;
     padding:1rem;
 }
 

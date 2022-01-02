@@ -16,32 +16,17 @@ import mimi from './content/mimi.JPG'
 import directors from './content/boardOfDirectors.JPG'
 
 
-import styled from 'styled-components'
-
-
-// const breakPoints = [
-//   { width: 1, itemsToShow: 1 },
-//   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-//   { width: 768, itemsToShow: 3 },
-//   { width: 1200, itemsToShow: 4 }
-// ];
-
 const App = () => {
 
-  // const [items, setItems] = useState([1, 2, 3, 4, 5, 6, 7, 8]);
 
   return (
   
     <div className='layout'>
 
-      {/* <img className='logo'src={companyLogo} alt='LearnToLiveCo-OperativeLogo'/> */}
 
       <h1 className="name">Grow With Us</h1>
 
         <Carousel enableSwipe="true" className="carousel" tiltEasing="ease" itemsToShow={1}>
-          {/* {items.map((item) => (
-            <Item key={item}>{item}</Item>
-          ))} */}
           <img className='images' src={companyLogo}/>
           <img className='images' src={z1}/>
           <img className='images' src={food}/>
@@ -51,12 +36,6 @@ const App = () => {
           <img className='images' src={drive2}/>
           <img className='images' src={hospital}/>
           <img className='images' src={food2}/>
-
-
-          {/* <Item><img src={z1}/></Item>
-          <Item><img src={companyLogo}/></Item>
-          <Item><img src={companyLogo}/></Item>
-        <Item><img src={companyLogo}/></Item> */}
         </Carousel>
 
 
@@ -84,17 +63,14 @@ const App = () => {
 
           <AccordionDetails>
 
-            <Typography> 
-              Email Us! @ - learntolivecooperative@gmail.com
-            </Typography>
-            <Typography>
-              HR - learntolivecooperative.hr@gmail.com
-            </Typography>
+            <Typography>Email:</Typography>
+            <Typography>learntolivecooperative@gmail.com</Typography>
+            <Typography>learntolivecooperative.hr@gmail.com</Typography>
 
             <Typography>
-              <InstagramLink href="https://www.instagram.com/learn.to.live.coop/">
+              <a href="https://www.instagram.com/learn.to.live.coop/">
                 Follow us on Instagram
-              </InstagramLink>
+              </a>
             </Typography>
 
           </AccordionDetails>
@@ -147,13 +123,4 @@ const App = () => {
 
 export default App;
 
-
-const EmailLink = styled.a`
-
-`
-
-
-const InstagramLink = styled.a`
-
-`
 
