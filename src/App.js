@@ -112,13 +112,11 @@ const App = () => {
           </AccordionSummary>
 
 
-          <AccordionDetails>
-            <img src={directors} />
-            <Typography>
-              Zoie Laviolette - Director of General Operations
-              Noelani White - Director of Youth Outreach
-              Dominique Keys - Director of Arts
-            </Typography>
+          <AccordionDetails align='center' className='accordionDetails'>
+            <img className='images' src={directors} />
+            <Typography className='names'>Zoie Laviolette - Director of General Operations</Typography>
+            <Typography className='names'>Noelani White - Director of Youth Outreach</Typography>
+            <Typography className='names'>Dominique Keys - Director of Arts</Typography>
           </AccordionDetails>
         </Accordion>
 
@@ -130,12 +128,10 @@ const App = () => {
           </AccordionSummary>
 
 
-          <AccordionDetails>
-            <Typography>
-              Zoie Laviolette - President
-              Chelsea Sconce - Secretary 
-              Jaleadeanne Traynor - Treasurer 
-            </Typography>
+          <AccordionDetails className='accordionDetails'>
+            <Typography className='names'>Zoie Laviolette - President</Typography>
+            <Typography className='names'>Chelsea Sconce - Secretary</Typography>
+            <Typography className='names'>Jaleadeanne Traynor - Treasurer</Typography>
           </AccordionDetails>
         </Accordion>
 
