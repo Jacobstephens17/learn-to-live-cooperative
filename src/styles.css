@@ -28,7 +28,7 @@
 
 .accordion {
     width:100%;
-    text-align: center;
+    text-align: left;
 }
 
 .accordionSummary {
@@ -40,7 +40,7 @@
 }
 
 .accordionText {
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -63,7 +63,7 @@
     height:500px;
     object-fit: scale-down;
     justify-content: center;
-    position:relative;
+    padding:1rem;
 }
 
 
@@ -75,6 +75,16 @@
     padding:1rem;
 }
 
+.underlineForNames{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.seperator{
+    border-bottom: 3px solid #7FC880;
+    margin:4rem;
+
+}
 
 .MuiTypography-alignCenter{
     justify-items: center;

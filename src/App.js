@@ -51,13 +51,12 @@ const App = () => {
           <img className='images' src={drive2}/>
           <img className='images' src={hospital}/>
           <img className='images' src={food2}/>
-          <img className='images' src={mimi}/>
 
 
           {/* <Item><img src={z1}/></Item>
           <Item><img src={companyLogo}/></Item>
           <Item><img src={companyLogo}/></Item>
-          <Item><img src={companyLogo}/></Item> */}
+        <Item><img src={companyLogo}/></Item> */}
         </Carousel>
 
 
@@ -114,9 +113,13 @@ const App = () => {
 
           <AccordionDetails align='center' className='accordionDetails'>
             <img className='images' src={directors} />
-            <Typography className='names'>Zoie Laviolette - Director of General Operations</Typography>
-            <Typography className='names'>Noelani White - Director of Youth Outreach</Typography>
-            <Typography className='names'>Dominique Keys - Director of Arts</Typography>
+            <div className='seperator'></div>
+            <Typography className='names'><span className="underlineForNames">Director of General Operations</span><br/>Zoie Laviolette</Typography>
+            <img className='images' src={z1}/>
+            <Typography className='names'><span className="underlineForNames">Director of Youth Outreach</span><br/>Noelani White</Typography>
+            <img className='images' src={companyLogo}/>
+            <Typography className='names'> <span className="underlineForNames">Director of Arts</span><br/>Dominique Keys</Typography>
+            <img className='images' src={mimi}/>
           </AccordionDetails>
         </Accordion>
 
@@ -130,8 +133,11 @@ const App = () => {
 
           <AccordionDetails className='accordionDetails'>
             <Typography className='names'>Zoie Laviolette - President</Typography>
+            <img className='images' src={z1}/>
             <Typography className='names'>Chelsea Sconce - Secretary</Typography>
+            <img className='images' src={companyLogo}/>
             <Typography className='names'>Jaleadeanne Traynor - Treasurer</Typography>
+            <img className='images' src={companyLogo}/>
           </AccordionDetails>
         </Accordion>
 
