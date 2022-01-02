@@ -131,12 +131,12 @@ const App = () => {
           </AccordionSummary>
 
 
-          <AccordionDetails className='accordionDetails'>
-            <Typography className='names'>Zoie Laviolette - President</Typography>
+          <AccordionDetails align='center' className='accordionDetails'>
+            <Typography className='names'><span className='underlineForNames'>President</span><br/>Zoie Laviolette</Typography>
             <img className='images' src={z1}/>
-            <Typography className='names'>Chelsea Sconce - Secretary</Typography>
+            <Typography className='names'><span className='underlineForNames'>Secretary</span><br/>Chelsea Sconce</Typography>
             <img className='images' src={companyLogo}/>
-            <Typography className='names'>Jaleadeanne Traynor - Treasurer</Typography>
+            <Typography className='names'><span className='underlineForNames'>Treasurer</span><br/>Jaleadeanne Traynor</Typography>
             <img className='images' src={companyLogo}/>
           </AccordionDetails>
         </Accordion>
