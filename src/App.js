@@ -13,7 +13,7 @@ import drive from './content/drive.JPG'
 import drive2 from './content/drive2.JPG'
 import food2 from './content/food2.jpg'
 import hospital from './content/hospital.JPEG'
-import mimi from './content/mimi.jpg'
+import mimi from './content/M.jpg'
 import directors from './content/boardOfDirectors.JPG'
 import jaleadeanne from './content/jaleadeanne.jpg'
 
