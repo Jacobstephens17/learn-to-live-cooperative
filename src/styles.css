@@ -15,15 +15,21 @@
 
 }
 
-.name{
+
+.header{
     /* font-family: 'Pushster', cursive; */
     font-family: 'Moon Dance', cursive;
     text-align: center;
     /* font-family: 'Oooh Baby', cursive; */
-    margin:1.5rem;
+    margin:2.5rem;
     font-size:60px;
 }
 
+
+.accordionContainer{
+    margin-top:5rem;
+
+}
 
 
 .accordion {
@@ -62,7 +68,7 @@
 
 .carousel {
     width:100%;
-    height:600px;
+    height:500px;
     object-fit: scale-down;
     align-content: center;
 
@@ -72,10 +78,11 @@
 
 .images{
     width:100%;
-    height:500px;
-    object-fit: scale-down;
+    height:450px;
+    object-fit:contain;
     justify-content: center;
     align-items: center;
+    /* padding:1rem; */
     padding:1rem;
 }
 
@@ -108,6 +115,7 @@
 
 
 .MuiAccordion-region{
+    
 }
 
 /* .MuiAccordion-gutters{
@@ -120,18 +128,16 @@
 /* CAROUSEL STYLING */
 /* square buttons */
 .rec.rec-arrow {
-    border-radius: 0;
     color: white;
+    background-color: white;
 }
 /* round buttons on hover */
 .rec.rec-arrow:hover {
-    border-radius: 50%;
     color:white;
     background-color: white;
     
 }
 .rec.rec-arrow {
-    border-radius: 50%;
     color:black;
     background-color: white;
 }
@@ -154,4 +160,17 @@
     color:black;
     width:80%;
     height:50%;
+}
+
+
+/* 
+.rec-pagination{
+    margin-bottom:1rem;
+    width:auto;
+    height:10%;
+    justify-content: center;
+} */
+
+.sc-iCfMLu gZZBOx rec rec-pagination {
+    padding:2rem;
 }
