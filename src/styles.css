@@ -118,12 +118,28 @@
 	transition: background-image .3s ease-in-out;
 }
 
+.image-slide:hover {
+	height: 100%;
+	width: 100%;
+	transition: background-image .3s ease-in-out;
+}
+
 .slide-arrow {
 	color: black;
 	cursor: pointer;
-	font-size: 2rem;
+	font-size: 3rem;
 	position: absolute;
 	top: 50%;
+    opacity:.7;
+}
+
+.slide-arrow:hover {
+	color: black;
+	cursor: pointer;
+	font-size: 3.2rem;
+	position: absolute;
+	top: 50%;
+    opacity:1;
 }
 
 .slide-arrow.right {
