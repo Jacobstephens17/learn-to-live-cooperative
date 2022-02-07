@@ -15,7 +15,6 @@
 
 }
 
-
 .header{
     /* font-family: 'Pushster', cursive; */
     font-family: 'Moon Dance', cursive;
@@ -25,12 +24,10 @@
     font-size:60px;
 }
 
-
 .accordionContainer{
     margin-top:5rem;
 
 }
-
 
 .accordion {
     width:100%;
@@ -60,7 +57,6 @@
     align-content: center;
 }
 
-
 .MuiAccordionDetails-root{
     justify-content: center;
     align-content: center;
@@ -74,8 +70,6 @@
 
 }
 
-
-
 .images{
     width:100%;
     height:450px;
@@ -85,7 +79,6 @@
     /* padding:1rem; */
     padding:1rem;
 }
-
 
 .names {
     border:solid 3px #7FC880;
@@ -111,9 +104,6 @@
     justify-items: center;
 }
 
-
-
-
 .MuiAccordion-region{
     
 }
@@ -122,55 +112,24 @@
     margin:3rem;
 } */
 
-
-
-
-/* CAROUSEL STYLING */
-/* square buttons */
-.rec.rec-arrow {
-    color: white;
-    background-color: white;
-}
-/* round buttons on hover */
-.rec.rec-arrow:hover {
-    color:white;
-    background-color: white;
-    
-}
-.rec.rec-arrow {
-    color:black;
-    background-color: white;
+.image-slide {
+	height: 100%;
+	width: 100%;
+	transition: background-image .3s ease-in-out;
 }
 
-/* hide disabled buttons */
-.rec.rec-arrow:disabled {
-    visibility: hidden;
-    color:white;
-}
-/* disable default outline on focused items */
-/* add custom outline on focused items */
-.rec-carousel-item:focus {
-    outline: none;
-    box-shadow: inset 0 0 1px 1px lightgrey;
-    color:white;
+.slide-arrow {
+	color: black;
+	cursor: pointer;
+	font-size: 2rem;
+	position: fixed;
+	top: 50%;
 }
 
-.rec-carousel {
-    justify-items: center;
-    color:black;
-    width:80%;
-    height:50%;
+.slide-arrow.right {
+	right: 1rem;
 }
 
-
-/* 
-.rec-pagination{
-    margin-bottom:1rem;
-    width:auto;
-    height:10%;
-    justify-content: center;
-} */
-
-.sc-iCfMLu gZZBOx rec rec-pagination {
-    padding:2rem;
+.slide-arrow.left {
+	left: 1rem;
 }

@@ -2,44 +2,24 @@ import React, { useState } from 'react'
 import companyLogo from './content/LearnToLiveCo-Operative.jpg'
 import { Accordion, Typography, AccordionSummary, AccordionDetails, ThemeProvider } from '@mui/material';
 import './styles.css'
-import Carousel from 'react-elastic-carousel'
 import Item from './components/Item'
-import z1 from './content/zoie1.JPG'
 import Z from './content/Z.jpg'
-import food from './content/food.JPG'
-import plant from './content/plant.JPG'
-import plant2 from './content/plant2.JPG'
-import drive from './content/drive.JPG'
-import drive2 from './content/drive2.JPG'
-import food2 from './content/food2.jpg'
-import hospital from './content/hospital.JPEG'
 import mimi from './content/M.jpg'
 import directors from './content/boardOfDirectors.JPG'
 import jaleadeanne from './content/jaleadeanne.jpg'
+import Carousel from './components/Carousel';
+
 
 const App = () => {
-
 
   return (
   
     <div className='layout'>
 
-
-      <h1 className="header">Grow With Us</h1>
-
-        <Carousel enableSwipe="true" className="carousel" tiltEasing="ease" itemsToShow={1}>
-          <img className='images' alt='logo' src={companyLogo}/>
-          <img className='images' alt='zoie' src={z1}/>
-          <img className='images' alt='food' src={food}/>
-          <img className='images' alt='plant' src={plant}/>
-          <img className='images' alt='plant two' src={plant2}/>
-          <img className='images' alt='food drive'src={drive}/>
-          <img className='images' alt='food drive 2'src={drive2}/>
-          <img className='images' alt='hospital' src={hospital}/>
-          <img className='images' alt='food' src={food2}/>
-        </Carousel>
-
-
+      <h1 className="header">Grow With Us</h1>  
+      
+        <Carousel/>
+        
         <div className='accordionContainer'>
 
         <Accordion className='accordion' square='true'>
