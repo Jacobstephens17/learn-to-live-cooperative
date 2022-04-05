@@ -8,6 +8,8 @@ import mimi from './content/M.jpg'
 import directors from './content/boardOfDirectors.JPG'
 import jaleadeanne from './content/jaleadeanne.jpg'
 import Carousel from './components/Carousel';
+import chelsea from './content/chelsea.png'
+import noelani from './content/noelani.jpg'
 
 
 const App = () => {
@@ -76,7 +78,7 @@ const App = () => {
             <Typography className='names'><span className="underlineForNames">Director of General Operations</span><br/>Zoie Laviolette</Typography>
             <img className='images' alt='zoie' src={Z}/>
             <Typography className='names'><span className="underlineForNames">Director of Youth Outreach</span><br/>Noelani White</Typography>
-            <img className='images' alt='company logo' src={companyLogo}/>
+            <img className='images' alt='company logo' src={noelani}/>
             <Typography className='names'> <span className="underlineForNames">Director of Arts</span><br/>Dominique Keys</Typography>
             <img className='images' alt='mimi' src={mimi}/>
           </AccordionDetails>
@@ -94,7 +96,7 @@ const App = () => {
             <Typography className='names'><span className='underlineForNames'>President</span><br/>Zoie Laviolette</Typography>
             <img className='images' alt='zoie' src={Z}/>
             <Typography className='names'><span className='underlineForNames'>Secretary</span><br/>Chelsea Sconce</Typography>
-            <img className='images' alt='company logo' src={companyLogo}/>
+            <img className='images' alt='company logo' src={chelsea}/>
             <Typography className='names'><span className='underlineForNames'>Treasurer</span><br/>Jaleadeanne Traynor</Typography>
             <img className='images' alt='company logo' src={jaleadeanne}/>
           </AccordionDetails>

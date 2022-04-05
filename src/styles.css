@@ -115,13 +115,7 @@
 .image-slide {
 	height: 100%;
 	width: 100%;
-	transition: background-image .3s ease-in-out;
-}
-
-.image-slide:hover {
-	height: 100%;
-	width: 100%;
-	transition: background-image .3s ease-in-out;
+	transition: background-image .4s ease;
 }
 
 .slide-arrow {
